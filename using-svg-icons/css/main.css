@@ -19,3 +19,18 @@ a{
   flex-direction: column;
   align-items: center;
 }
+
+.icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+}
+
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%
+  fill; currentColor;
+}
